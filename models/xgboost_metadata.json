@@ -1,0 +1,32 @@
+{
+  "model_type": "xgboost",
+  "feature_columns": [
+    "rating_diff",
+    "adjo_diff",
+    "adjd_diff",
+    "tempo_diff",
+    "seed_diff",
+    "sos_diff"
+  ],
+  "train_seasons": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022
+  ],
+  "validation_seasons": [
+    2023,
+    2024
+  ],
+  "metrics": {
+    "log_loss": 0.6516029970000489,
+    "accuracy": 0.6746031746031746,
+    "brier_score": 0.21939369287636065
+  }
+}
